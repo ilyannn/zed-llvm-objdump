@@ -5,15 +5,15 @@
 "Disassembly of section" @keyword
 (section_name) @title
 
-(symbol_label name: (symbol) @function)
-(symbol_ref name: (symbol) @function)
-(relocation symbol: (symbol) @function)
+(symbol_label name: (symbol) @type)
+(symbol_ref name: (symbol) @type)
+(relocation symbol: (symbol) @type)
 
 (address) @number
 (bytes) @comment
 (offset) @number
 
-(mnemonic) @keyword
+(mnemonic) @function
 (register) @variable
 (immediate) @number
 (operand_text) @variable
