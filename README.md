@@ -2,17 +2,7 @@
 
 Syntax highlighting for `llvm-objdump` disassembly output in [Zed](https://zed.dev).
 
-<img src="screenshot.png" alt="AArch64 disassembly highlighted in Zed" width="550">
-
-```
-0000000000000000 <external_call>:
-       0: d10083ff     	sub	sp, sp, #0x20
-       4: a9017bfd     	stp	x29, x30, [sp, #0x10]
-      14: d2800069     	mov	x9, #0x3                // =3
-      18: 9b097d00     	mul	x0, x8, x9
-      1c: 94000000     	bl	0x1c <external_call+0x1c>
-		000000000000001c:  R_AARCH64_CALL26	course_sink
-```
+<img src="screenshot.png" alt="AArch64 disassembly highlighted in Zed" width="580">
 
 It highlights:
 
