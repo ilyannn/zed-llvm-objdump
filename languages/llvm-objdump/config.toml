@@ -1,0 +1,4 @@
+name = "LLVM Objdump"
+grammar = "llvm_objdump"
+path_suffixes = ["dis", "objdump"]
+line_comments = ["// "]

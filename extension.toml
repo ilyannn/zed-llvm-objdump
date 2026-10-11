@@ -1,0 +1,12 @@
+id = "llvm-objdump"
+name = "LLVM Objdump"
+description = "Syntax highlighting for llvm-objdump disassembly output"
+version = "0.1.0"
+schema_version = 1
+authors = []
+repository = "file:///Users/in/Code/zed-llvm-objdump"
+
+[grammars.llvm_objdump]
+repository = "file:///Users/in/Code/zed-llvm-objdump"
+rev = "5d35f02d6bc836d2c1e660aafd1379c7a5c27220"
+path = "grammar"
