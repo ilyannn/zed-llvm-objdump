@@ -5,18 +5,18 @@
 "Disassembly of section" @keyword
 (section_name) @title
 
-(symbol_label name: (symbol) @type)
-(symbol_ref name: (symbol) @type)
-(relocation symbol: (symbol) @type)
+(symbol_label name: (symbol) @label)
+(symbol_ref name: (symbol) @label)
+(relocation symbol: (symbol) @label)
 
 (address) @number
 (bytes) @comment
 (offset) @number
 
 (mnemonic) @function
-(register) @variable
+(register) @variable.parameter
 (immediate) @number
-(operand_text) @variable
+(operand_text) @variable.parameter
 
 (relocation_type) @attribute
 
